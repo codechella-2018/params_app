@@ -7,5 +7,8 @@ Rails.application.routes.draw do
   	get "/guess_url" => "params_examples#guess_action"
 
   	get "/url_segment_params_url/:wildcard" => "params_examples#url_segment_params_action"
+  	get "/guess_url_segment_url/:user_guess" => "params_examples#guess_action"
+
+  	post "/guess_url" => "params_examples#guess_action"
   end
 end
