@@ -30,4 +30,42 @@ class Api::ParamsExamplesController < ApplicationController
 		end
 		render "guess_view.json.jbuilder"
 	end
+
+	def url_segment_params_action
+		@user_input = params["wildcard"]
+		render "url_segment_params_view.json.jbuilder"
+	end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
